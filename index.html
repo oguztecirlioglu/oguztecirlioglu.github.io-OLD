@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oguz Tecirlioglu</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
     <div class="intro-left">
         <div class="container-fluid full-height">
@@ -14,29 +19,158 @@
                 <div class="col">
                     <img src="img/profile.jpeg" alt="Profile Photo" class="profile">
                     <p class="display-4">Oğuz Tecirlioğlu</p>
-                    <p class="display-5">Full-Stack Developer & Aerospace Engineer</p>
+                    <p class="h3">Full-Stack Developer & Aerospace Engineer</p>
+                    <div class="myicons">
+                        <a href='https://www.linkedin.com/in/oguztecirlioglu/'class="fa fa-linkedin-square fa-2x myicons" aria-hidden="true"></a>
+                        <a href='https://github.com/oguztecirlioglu'class="fa fa-github fa-2x myicons" style="color:black; text-decoration: none;" aria-hidden="true"></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
- <div class="container-fluid">
-     <div class="row">
+    <div class="container-fluid allthing">
+        <div class="row">
             <div class="col-md-4">Left</div>
             <div class="col-md-8 panel-right">Right
-                <section class="intro">            
-                    <h1>About Me & What I Do </h1>
-                    <p>asdasdasdasdsad</p>
+                <section class="intro">
+                    <h1 class="aboutme mb-3">About Me & What I Do </h1>
+                    <h3 class="aboutme">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                        took a galley of type and scrambled it to make a type specimen book. It has survived not only
+                        five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including
+                        versions of Lorem Ipsum.</h3>
+                </section>
+                <section>
+                    <nav>
+                        <ul class="ulpopups list-inline text-center">
+                            <!-- ABOUT ME POPUP BELOW -->
+                            <li class="listpopups list-inline-item"><button type="button"
+                                    class="btn btn-outline-secondary" data-toggle="modal" data-target="#about">
+                                    About Me!
+                                </button></li>
+                            <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="about"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="about">My Experiences So Far!
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            asdasdasdsad
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary col-12"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- MY RESUME POPUP BELOW -->
+                            <li class="listpopups list-inline-item"><button type="button"
+                                    class="btn btn-outline-secondary" data-toggle="modal" data-target="#resume">
+                                    Resume
+                                </button></li>
+                            <div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="resume"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">My Experiences So Far!
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            My Resume
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary col-12"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- MY PROJECTS POPUP BELOW -->
+                            <li class="listpopups list-inline-item"><button type="button"
+                                    class="btn btn-outline-secondary" data-toggle="modal" data-target="#projects">
+                                    My Projects
+                                </button></li>
+                            <div class="modal fade" id="projects" tabindex="-1" role="dialog" aria-labelledby="projects"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">My Projects!
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            My Projects
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary col-12"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- CONTACT POPUP BELOW-->
+                            <li class="listpopups list-inline-item"><button type="button"
+                                    class="btn btn-outline-secondary" data-toggle="modal" data-target="#contact">
+                                    Contact Me
+                                </button></li>
+                            <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contact"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="projects">Here's how you can reach me:
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Phone Number
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary col-12"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--<li><a href="#elements">Elements</a></li>-->
+                        </ul>
                 </section>
             </div>
-     </div>
- </div>
-    
+        </div>
+    </div>
 
 
 
-<!-------------Scripts------------>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-------------Scripts------------>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
