@@ -4,8 +4,13 @@ body {
     /* Main text color  */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .intro-left {
     background: url(../img/background3.jpg);
+    border-top-right-radius: 10rem;
     /* url(../img/space.jpg);   CHANGE BACKGROUND, revert to just background: then url*/
     position: fixed;
     left: 0;
@@ -16,27 +21,12 @@ body {
     /* Color of text under photo*/
 }
 
-.stuff-right{
-    right: 0;
+.stuff-right {
+    right: 0px;
     width: 66.66%;
     position: absolute;
-}
-
-/*  body{
     
-        background:
-          linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-          linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-          linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-          linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-          linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-          linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-        background-color: #131313;
-        background-size: 20px 20px;
-     
-      
 }
-*/
 
 .profile {
     width: 12rem;
@@ -50,7 +40,7 @@ body {
 }
 
 section {
-    margin: 8rem;
+    margin: 10rem;
     font-size: 1.2rem;
 }
 
@@ -102,17 +92,31 @@ ul {
     margin-bottom: .25rem;
 }
 
-.scroll-anim{
+.scroll-anim {
     opacity: 0;
-    transform: scale(0.1);
+    transform: scale3d(0.1, 1, 0) rotate(-180deg);
     transition: all 1s ease-in-out;
 }
-.scroll-anim-active{
+
+.scroll-anim-active {
     opacity: 1;
     transform: scale(1);
 }
 
+.projecticons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.mywidth {
+    max-width: 70%;
+}
+
 @media(max-width:768px) {
+    .mywidth {
+        max-width: 100%;
+    }
     .intro-left {
         height: 40rem;
         margin-bottom: 0rem;
@@ -123,10 +127,8 @@ ul {
         margin: 1rem;
         font-size: 1.2rem;
     }
-    
-    .stuff-right{
+    .stuff-right {
         position: relative;
         width: 100%;
     }
 }
-
