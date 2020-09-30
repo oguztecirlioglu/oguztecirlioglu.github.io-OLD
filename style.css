@@ -1,38 +1,83 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
     color: rgb(138, 138, 138);
+    background: url(../img/bg5.jpg);
+    background-size: cover;
     /* Main text color  */
 }
 
-html {
-    scroll-behavior: smooth;
+.generalbgcolor {
+    background-color: #DA5754;
+    border-radius: 2rem;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 3.5rem;
+    border-bottom-right-radius: 3.5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.generalbgstyle {
+    background-color:#544596;
+    opacity: 1;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.alternatebgcolor {
+    background-color: #DAC054;
+    border-radius: 2rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 3.25rem;
+    border-bottom-left-radius: 3.25rem;
+    padding-top: 1rem;
+    padding-left : 1rem;
+    opacity: .8;
+}
+.alternatebgcolor:hover{
+    transition: ease 1s;
+    opacity: 1;
+}
+
+.alternatebgstyle {
+    background-color: #42AB49;
+    opacity: .5;
+    border-radius: 1.5rem;
+    padding: .5rem;
+    opacity: .8;
+}
+.alternatebgstyle:hover{
+    transition: ease 1s;
+    opacity: 1;
 }
 
 .intro-left {
     background: url(../img/background3.jpg);
     border-top-right-radius: 10rem;
-    /* url(../img/space.jpg);   CHANGE BACKGROUND, revert to just background: then url*/
     position: fixed;
-    left: 0;
-    width: 33.33%;
     background-size: cover;
     height: 100%;
+    width: 33.33%;
+    left: 0;
     color: black;
-    /* Color of text under photo*/
 }
 
 .stuff-right {
     right: 0px;
     width: 66.66%;
     position: absolute;
-    
 }
 
 .profile {
-    width: 12rem;
-    height: 12rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 40%;
-    margin: 1rem;
+    margin: .5rem;
 }
 
 .full-height {
@@ -72,6 +117,10 @@ ul {
     overflow: hidden;
     background-color: white;
     user-select: none
+}
+.white{
+    color: #DCDCDC;
+    border-color: #DCDCDC;
 }
 
 .myicons {
@@ -116,6 +165,18 @@ ul {
 @media(max-width:768px) {
     .mywidth {
         max-width: 100%;
+    }
+    .generalbgcolor{
+        opacity: 1;
+    }
+    .generalbgstyle{
+        opacity: 1;
+    }
+    .alternatebgcolor{
+        opacity: 1;
+    }
+    .alternatebgstyle{
+        opacity: 1;
     }
     .intro-left {
         height: 40rem;
