@@ -4,7 +4,7 @@ html{
 
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Raleway, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
     color: rgb(138, 138, 138);
     background: url(../img/bg5.jpg);
@@ -13,7 +13,7 @@ body {
 }
 
 .generalbgcolor {
-    background-color: #DA5754;
+    background-color: #574C68;
     border-radius: 2rem;
     border-top-right-radius: 1.5rem;
     border-top-left-radius: 3.5rem;
@@ -23,14 +23,14 @@ body {
 }
 
 .generalbgstyle {
-    background-color:#544596;
+    background-color:#45595F;
     opacity: 1;
     border-radius: 2rem;
     padding: 1rem;
 }
 
 .alternatebgcolor {
-    background-color: #DAC054;
+    background-color: #808E65;
     border-radius: 2rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 3.25rem;
@@ -45,7 +45,7 @@ body {
 }
 
 .alternatebgstyle {
-    background-color: #42AB49;
+    background-color: #5D664C;
     opacity: .5;
     border-radius: 1.5rem;
     padding: .5rem;
